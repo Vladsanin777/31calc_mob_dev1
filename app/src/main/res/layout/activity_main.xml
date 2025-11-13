@@ -11,7 +11,7 @@
         android:id="@+id/isRoot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Привет Всем!"
         android:textColor="@color/purple0"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/headsOrTails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shake the device"
+        android:text="Встрехните устройство"
         android:textColor="@color/purple1"
         android:textSize="52sp"
         android:gravity="center"
@@ -40,7 +40,7 @@
         android:id="@+id/isRNG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Всем привет!"
         android:textColor="@color/purple2"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,8 +48,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.821" />
-
-    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

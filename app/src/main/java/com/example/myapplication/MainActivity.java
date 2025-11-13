@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 } else {
                     isHeads = playHeadsOrTails();
                 }
-                String resultText = isHeads ? "Heads" : "Tails";
+                String resultText = isHeads ? "Орёл" : "Решка";
 
                 m_headsOrTrails.post(() -> {
                     m_headsOrTrails.setText(resultText);

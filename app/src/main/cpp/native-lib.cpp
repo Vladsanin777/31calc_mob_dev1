@@ -76,7 +76,7 @@ extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_myapplication_MainActivity_cheakRoot(
         JNIEnv* env, jobject) {
     const char * const messageIsRoot{RootUtil::isDeviceRooted() ? \
-        "You have ROOT!" : "You haven't root! :("};
+        "У Вас есть ROOT!" : "У Вас нет root! :("};
     jstring result {nullptr};
     do {
         result = env->NewStringUTF(messageIsRoot);
@@ -143,5 +143,5 @@ Java_com_example_myapplication_MainActivity_cheakRNG(
     bool isRNG{false};
     if (hasHardwareRNG()) isRNG = true;
     else isRNG = canGetRandom();
-    return env->NewStringUTF(isRNG ? "You have RNG!" : "You haven't RNG! :(");
+    return env->NewStringUTF(isRNG ? "У Вас есть RNG!" : "У Вас нету RNG! :(");
 }
